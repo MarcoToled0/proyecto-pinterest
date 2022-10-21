@@ -1,0 +1,99 @@
+.container{
+    margin: 0px;
+    border: 0px solid black;
+    display: inline-block;
+    width: 1350px;
+    height: 100px;
+}
+.caja-1 img{
+    width: 40px;
+}
+.caja-1{
+    display: inline-block;
+    
+}
+.caja-2{
+    display: inline-block;
+    color: rgb(231, 43, 43);
+
+}
+.caja-3{
+    display: inline-block;
+    margin: 15px;
+
+}
+.caja-4{
+    display: inline-block;
+    margin: 13px;
+    
+}
+.caja-5{
+    margin: 5px;
+    display: inline-block;
+    border: 3px solid #cac8c4;
+    width: 750px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    top: 10px;
+}
+.lupa img{
+    width: 35px;
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+.caja-6{
+    display: inline-block;
+    background-color: #cac8c4;;
+    border: 14px solid #cac8c4;
+    border-radius: 40px;
+
+
+}
+.caja-7{
+    display: inline-block;
+    background-color: red;
+    border: 14px solid red;
+    border-radius: 40px;
+}
+
+.conta{
+    max-width: 1000px;
+    padding: 50px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(5, 200px);
+    gap: 5px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.item-1{
+    grid-row: 1/3;
+}
+.item-3{
+    grid-row: 4/2;
+}
+.item-6{
+    grid-row: 1/3;
+}
+.item-9{
+    grid-row: 4/2;
+}
+.item-12{
+    grid-row: 1/3;
+}
+.item-15{
+    grid-row: 5/3;
+}
+.item-18{
+    grid-row: 3/5;
+}
+.item-21{
+    grid-row: 5/3;
+}
